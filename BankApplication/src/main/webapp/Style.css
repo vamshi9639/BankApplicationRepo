@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* Importing Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Delius&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Inconsolata:wght@200..900&family=Kalnia+Glaze:wght@100..700&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+body{
+	background-image: url('https://images.moneycontrol.com/static-mcnews/2021/06/Rupee_Shutterstock-770x433.jpg?impolicy=website&width=770&height=431');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	/* background-color:black; */
+	color:white;
+	margin:0;
+	user-select: none;
+}
+.wel_container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 150px;
+}
+.home_div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 600px;
+	height: 300px;
+	border: 2px solid white;
+	padding: 10px;
+	align-items: center;
+	box-shadow:0 4px 28px white; 
+	font-size: 22px;
+}
+.home_div:hover{
+	zoom: 110%;
+}
+.home_div a:hover{
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	border: 2px solid green;
+	box-shadow:0 4px 18px yellow;
+}
+.home_div h3{
+	font-family: "Bungee Spice", serif;
+}
+.home_div a{
+	text-decoration: none;
+	cursor: pointer;
+	color: yellow;
+	border: 2px solid yellow;
+	padding: 10px;
+	border-radius: 10px;
+}
+.reg_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-align: center;
+	/* margin-top: 100px; */
+}
+.reg_div{
+	border: 2px solid white;
+	height: auto;
+	width: 550px;
+	padding: 20px;
+	box-shadow: 0 4px 28px white;
+    border-radius: 10px;
+}
+.reg_div form label{
+	width: 150px;
+}
+
+.reg_div form input {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+#submit_reg{
+	width: 100px;
+	padding: 5px;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+}
+#submit_reg:hover{
+	background-color: black;
+	color: white;
+}
